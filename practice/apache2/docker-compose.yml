@@ -1,0 +1,8 @@
+services:
+  apache2:
+    build: .
+    ports:
+      - "8080:80"
+      
+  mysql:
+    image: "mysql:9.2.0"
